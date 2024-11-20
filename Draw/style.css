@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#drawCanvas {
+    /* height: 500px; */
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.tools{
+    display: flex;
+    gap: 4rem;
+}
+
+
+button {
+    font-size: 1.1rem;
+    padding: 1rem 1.8rem;
+    border-radius: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Draw I/O</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <main>
+      <canvas id="drawCanvas"></canvas>
+      <div class="tools">
+        <input type="color" id="colorPicker" />
+        <input
+        type="range"
+        max="50"
+        min="4"
+        id="penSize"
+        value="1"
+        />
+        <button id="undo">undo</button>
+        <button id="redo">redo</button>
+        <button id="clear">clear</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
